@@ -39,12 +39,20 @@ def fetch_opportunities(api_key: str, keywords=None, naics_codes=None, days_back
         "ptype": "o",  # o = solicitation/opportunity (not award notices)
     }
 
+    # SAM.gov's ncode and title params only take one value each, so multiple NAICS
+    # codes or keywords are queried one at a time and merged/de-duplicated locally.
+    # NAICS code is a structured field and a much more reliable filter than a title
+    # keyword match (opportunity titles rarely contain the literal keyword text), so
+    # prefer naics_codes when both are given.
     if naics_codes:
-        params["ncode"] = ",".join(naics_codes)
-
-    if keywords:
-        # SAM.gov's title search only takes one term well, so we query per keyword
-        # and merge/de-duplicate results locally.
+        results = {}
+        for code in naics_codes:
+            resp = requests.get(SAM_API_URL, params={**params, "ncode": code}, timeout=30)
+            resp.raise_for_status()
+            for item in resp.json().get("opportunitiesData", []):
+                results[item.get("noticeId")] = item
+        raw_items = list(results.values())
+    elif keywords:
         results = {}
         for kw in keywords:
             resp = requests.get(SAM_API_URL, params={**params, "title": kw}, timeout=30)

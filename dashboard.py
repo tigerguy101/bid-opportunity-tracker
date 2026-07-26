@@ -14,11 +14,10 @@ import streamlit as st
 
 DATA_FILE = Path(__file__).parent / "data" / "bids.json"
 
-st.set_page_config(page_title="Bid opportunity tracker", layout="centered")
-
-st.title("Bid opportunity tracker")
+st.set_page_config(page_title="SAM.gov Bid Opportunity Tracker", layout="centered")
+st.title("SAM.gov Bid Opportunity Tracker")
 st.caption("Public contract opportunities, checked and summarized automatically every day.")
-
+st.caption("Built by Robert Selders II")
 if not DATA_FILE.exists():
     st.info("No data yet. Run `python run_pipeline.py` once to generate data/bids.json.")
     st.stop()

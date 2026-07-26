@@ -1,0 +1,42 @@
+name: Daily bid check
+
+on:
+  schedule:
+    # Runs at 12:00 UTC every day (adjust for your timezone). Runs entirely on GitHub's
+    # infrastructure, no local computer needs to be on for this to fire.
+    - cron: "0 12 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          SAM_GOV_API_KEY: ${{ secrets.SAM_GOV_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          BID_KEYWORDS: ${{ vars.BID_KEYWORDS }}
+          NAICS_CODES: ${{ vars.NAICS_CODES }}
+        run: python run_pipeline.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "bid-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/bids.json
+          git diff --quiet --cached || git commit -m "Update bids: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

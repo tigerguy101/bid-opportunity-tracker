@@ -1,0 +1,56 @@
+{
+  "last_updated": "2026-07-26T12:00:00Z",
+  "total_found": 4,
+  "high_relevance": 2,
+  "categories": ["IT services", "Administrative", "Facilities"],
+  "bids": [
+    {
+      "id": "SAMPLE001",
+      "title": "IT support services, city procurement",
+      "agency": "Department of Example",
+      "naics": "541512",
+      "posted_date": "2026-07-24",
+      "due_date": "2026-08-12",
+      "sam_url": "https://sam.gov/",
+      "summary": "3-year contract for desktop support across 6 offices. Matches an IT services profile.",
+      "relevance": "High",
+      "category": "IT services"
+    },
+    {
+      "id": "SAMPLE002",
+      "title": "Network security assessment",
+      "agency": "Department of Example",
+      "naics": "541512",
+      "posted_date": "2026-07-23",
+      "due_date": "2026-09-03",
+      "sam_url": "https://sam.gov/",
+      "summary": "One-time security audit for 200 endpoints. Strong fit for a consulting background.",
+      "relevance": "High",
+      "category": "IT services"
+    },
+    {
+      "id": "SAMPLE003",
+      "title": "Temporary staffing services",
+      "agency": "Department of Example",
+      "naics": "561320",
+      "posted_date": "2026-07-22",
+      "due_date": "2026-08-04",
+      "sam_url": "https://sam.gov/",
+      "summary": "Seasonal admin staffing request. Partial overlap with current offerings.",
+      "relevance": "Medium",
+      "category": "Administrative"
+    },
+    {
+      "id": "SAMPLE004",
+      "title": "Landscaping and grounds maintenance",
+      "agency": "Department of Example",
+      "naics": "561730",
+      "posted_date": "2026-07-21",
+      "due_date": "2026-08-21",
+      "sam_url": "https://sam.gov/",
+      "summary": "Recurring lawn care contract. Outside current service scope.",
+      "relevance": "Low",
+      "category": "Facilities"
+    }
+  ]
+}

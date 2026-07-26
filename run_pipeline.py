@@ -40,8 +40,10 @@ def main():
     if not groq_key:
         raise SystemExit("Missing GROQ_API_KEY. Set it in .env locally or as a GitHub Actions secret.")
 
+    days_back = int(os.environ.get("DAYS_BACK", "14"))
+
     print("Fetching opportunities from SAM.gov...")
-    bids = fetch_opportunities(api_key=sam_key, keywords=keywords, naics_codes=naics)
+    bids = fetch_opportunities(api_key=sam_key, keywords=keywords, naics_codes=naics, days_back=days_back)
     print(f"Found {len(bids)} opportunities. Summarizing with AI...")
 
     enriched = summarize_all(bids, api_key=groq_key)

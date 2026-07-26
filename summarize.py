@@ -8,6 +8,7 @@ a different provider, the rest of the pipeline doesn't care which one you use.
 
 import os
 import json
+import time
 import requests
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
@@ -46,8 +47,17 @@ def summarize_bid(bid: dict, api_key: str) -> dict:
         "response_format": {"type": "json_object"},
     }
 
-    resp = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=30)
-    resp.raise_for_status()
+    # Groq's free tier has a fairly low requests-per-minute cap. Retry on 429 with
+    # backoff (honoring Retry-After when present) instead of failing the whole run.
+    max_attempts = 5
+    for attempt in range(max_attempts):
+        resp = requests.post(GROQ_API_URL, headers=headers, json=payload, timeout=30)
+        if resp.status_code == 429 and attempt < max_attempts - 1:
+            wait = float(resp.headers.get("Retry-After", 5 * (attempt + 1)))
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        break
     content = resp.json()["choices"][0]["message"]["content"]
 
     try:
@@ -63,8 +73,13 @@ def summarize_bid(bid: dict, api_key: str) -> dict:
     }
 
 
-def summarize_all(bids: list, api_key: str) -> list:
-    return [summarize_bid(b, api_key) for b in bids]
+def summarize_all(bids: list, api_key: str, max_bids: int = 30) -> list:
+    enriched = []
+    for i, b in enumerate(bids[:max_bids]):
+        enriched.append(summarize_bid(b, api_key))
+        if i < len(bids) - 1:
+            time.sleep(1.2)  # stay under Groq's free-tier requests-per-minute limit
+    return enriched
 
 
 if __name__ == "__main__":

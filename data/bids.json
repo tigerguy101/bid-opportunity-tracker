@@ -1,13 +1,14 @@
 {
-  "last_updated": "2026-07-26T22:57:16.799985Z",
+  "last_updated": "2026-07-27T14:22:23.736107Z",
   "total_found": 30,
-  "high_relevance": 18,
+  "high_relevance": 20,
   "categories": [
-    "AI Support",
+    "AI services",
     "AV Services",
-    "Acquisitions",
+    "Acquisition Services",
     "Cloud Services",
-    "Cloud services",
+    "Document Management",
+    "Health Services",
     "IT services",
     "Radio Equipment",
     "Training services"
@@ -22,8 +23,8 @@
       "due_date": "2026-08-14T14:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=79175b05c6384836a3f595961f9c7406",
       "sam_url": "https://sam.gov/workspace/contract/opp/79175b05c6384836a3f595961f9c7406/view",
-      "summary": "The contract is for a Readiness Simulation for the Selective Service System, likely involving IT and simulation services. The goal is to support the agency's readiness and preparedness.",
-      "relevance": "Medium",
+      "summary": "The contract is for a readiness simulation for the Selective Service System, likely involving IT and AI consulting services. The goal is to assess and improve the system's preparedness.",
+      "relevance": "High",
       "category": "IT services"
     },
     {
@@ -35,7 +36,7 @@
       "due_date": "2026-07-27T15:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=53b337e7deec4fa683c84e6e74a3735e",
       "sam_url": "https://sam.gov/workspace/contract/opp/53b337e7deec4fa683c84e6e74a3735e/view",
-      "summary": "The contract is for modernizing the Periodic Health Assessment capability, and the project involves IT services for the Defense Health Agency. The goal is to improve health assessment processes.",
+      "summary": "The contract is for modernizing the Periodic Health Assessment capability, and the project involves IT services for the Department of Defense. The goal is to improve health assessment processes.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -61,7 +62,7 @@
       "due_date": "2026-07-14T17:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bb4b900e80bd4104968d0efd6b149030",
       "sam_url": "https://sam.gov/workspace/contract/opp/bb4b900e80bd4104968d0efd6b149030/view",
-      "summary": "The contract is for a PointCount Parser for a Microscope Lab, likely involving data analysis and software development. The parser will be used to process and analyze data from microscope samples.",
+      "summary": "The contract is for a PointCount Parser for a Microscope Lab, likely involving data analysis and automation. The parser will be used to process data from microscope samples.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -74,7 +75,7 @@
       "due_date": "2026-07-29T15:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d00204a2089a49c2a78898c6e90b4f7a",
       "sam_url": "https://sam.gov/workspace/contract/opp/d00204a2089a49c2a78898c6e90b4f7a/view",
-      "summary": "The FDIC is seeking consultation services for hardware and professional services in Palo Alto. This contract involves providing expert advice and support for the FDIC's IT infrastructure.",
+      "summary": "The FDIC is seeking consultation services for hardware and professional services in Palo Alto. This contract involves providing expert advice and support for IT infrastructure.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -87,9 +88,9 @@
       "due_date": "2026-08-12T17:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=53597c3c4d3b4fe19612403bbcf4f08f",
       "sam_url": "https://sam.gov/workspace/contract/opp/53597c3c4d3b4fe19612403bbcf4f08f/view",
-      "summary": "The Department of Transportation's Federal Aviation Administration is seeking information for strategic sourcing of various supplies and equipment. This contract is for acquiring goods and equipment, not specifically IT services.",
+      "summary": "The Department of Transportation's Federal Aviation Administration is seeking information for strategic sourcing of various supplies and equipment. This contract involves acquisition services for the agency.",
       "relevance": "Low",
-      "category": "Acquisitions"
+      "category": "Acquisition Services"
     },
     {
       "id": "c2daf151f1f7420fa3fd1cd55415c5ab",
@@ -100,7 +101,7 @@
       "due_date": "2026-07-22T16:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c2daf151f1f7420fa3fd1cd55415c5ab",
       "sam_url": "https://sam.gov/workspace/contract/opp/c2daf151f1f7420fa3fd1cd55415c5ab/view",
-      "summary": "The contract is for audio/visual repair and replacement services for the Department of the Navy. The goal is to provide maintenance and support for audio/visual equipment.",
+      "summary": "The contract is for repair and replacement of audio/visual equipment for the Department of the Navy. The work involves maintenance and installation of various A/V systems.",
       "relevance": "Low",
       "category": "AV Services"
     },
@@ -113,7 +114,7 @@
       "due_date": "2026-08-05T10:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a8f95d39ed0745039dd69d6085067d22",
       "sam_url": "https://sam.gov/workspace/contract/opp/a8f95d39ed0745039dd69d6085067d22/view",
-      "summary": "The contract is for the procurement of APX N70 radios and related equipment for the Bureau of Prisons. The goal is to obtain the necessary communication devices.",
+      "summary": "The contract is for the procurement of APX N70 radios and related equipment for the Bureau of Prisons. This is a hardware acquisition contract.",
       "relevance": "Low",
       "category": "Radio Equipment"
     },
@@ -126,7 +127,7 @@
       "due_date": "2026-07-27T11:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=53531eb807c946a6b99ab55740b77f9e",
       "sam_url": "https://sam.gov/workspace/contract/opp/53531eb807c946a6b99ab55740b77f9e/view",
-      "summary": "The contract is for providing cloud-based data access and search credits for the Department of Justice, US Marshals Service. The service will be used for data analysis and management.",
+      "summary": "The contract is for providing cloud-based data access and search credits for the Department of Justice, US Marshals Service. The service will be used for data analysis and access.",
       "relevance": "High",
       "category": "Cloud Services"
     },
@@ -139,7 +140,7 @@
       "due_date": "2026-07-24T17:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2c15c38926904f27b3596a34788183da",
       "sam_url": "https://sam.gov/workspace/contract/opp/2c15c38926904f27b3596a34788183da/view",
-      "summary": "The Social Security Administration is seeking a quotation for an unspecified service related to IT, with a due date of July 24, 2026. The NAICS code 541519 suggests it may be related to IT services.",
+      "summary": "The Social Security Administration is seeking a quotation for an unspecified service related to IT, likely involving software or system integration. The NAICS code 541519 suggests a focus on IT services.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -152,7 +153,7 @@
       "due_date": "2026-07-28T12:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ec1b0e80994d4a36908a9964951c8427",
       "sam_url": "https://sam.gov/workspace/contract/opp/ec1b0e80994d4a36908a9964951c8427/view",
-      "summary": "The contract is for operations and maintenance support services for the Arms Control Enterprise System (ACES). The system requires ongoing IT support to ensure its continued functionality.",
+      "summary": "The contract is for operations and maintenance support services for the Arms Control Enterprise System (ACES). The system requires IT support for its daily operations.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -165,9 +166,9 @@
       "due_date": "2026-07-24T15:30:00-05:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b22dee8cb9384ef697ec8abfe81d68ff",
       "sam_url": "https://sam.gov/workspace/contract/opp/b22dee8cb9384ef697ec8abfe81d68ff/view",
-      "summary": "This contract is for AI tech support services for the National Aeronautics and Space Administration. The selected vendor will provide technical support for AI systems and tools.",
+      "summary": "This contract is for AI tech support services for the NASA Shared Services Center. The selected vendor will provide technical support for AI systems and tools.",
       "relevance": "High",
-      "category": "AI Support"
+      "category": "AI services"
     },
     {
       "id": "7efe7fe8d48d40a38c143da4d46a14bf",
@@ -178,7 +179,7 @@
       "due_date": "2026-07-24T17:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7efe7fe8d48d40a38c143da4d46a14bf",
       "sam_url": "https://sam.gov/workspace/contract/opp/7efe7fe8d48d40a38c143da4d46a14bf/view",
-      "summary": "The contract is for an Enterprise Skills Assessment Platform, likely involving IT and AI to assess skills within the Department of Defense. The platform will help the US Special Operations Command to evaluate and manage personnel skills.",
+      "summary": "The contract is for an Enterprise Skills Assessment Platform, likely to assess and manage skills within the US Special Operations Command. The platform may involve IT and AI components to analyze and improve skills.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -191,9 +192,9 @@
       "due_date": "2026-08-06T17:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7412e0a6c4c5488b96509d08d17d5569",
       "sam_url": "https://sam.gov/workspace/contract/opp/7412e0a6c4c5488b96509d08d17d5569/view",
-      "summary": "The contract is for the USPTO's Enterprise Cloud Modernization, aiming to modernize its cloud infrastructure. This involves migrating and managing cloud-based services to improve efficiency and scalability.",
+      "summary": "The contract is for cloud modernization services at the US Patent and Trademark Office, involving the migration and management of their enterprise systems to the cloud. This includes the implementation of cloud-based solutions to improve efficiency and scalability.",
       "relevance": "High",
-      "category": "Cloud services"
+      "category": "Cloud Services"
     },
     {
       "id": "efc887cd3b8c48a0bbd5a804c46ac932",
@@ -204,7 +205,7 @@
       "due_date": "2026-08-14T18:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=efc887cd3b8c48a0bbd5a804c46ac932",
       "sam_url": "https://sam.gov/workspace/contract/opp/efc887cd3b8c48a0bbd5a804c46ac932/view",
-      "summary": "The contract is for hardware maintenance of Dell DD990 replacement equipment. The goal is to ensure continued operation and support of the hardware.",
+      "summary": "The contract is for hardware maintenance of Dell DD990 replacement equipment. The goal is to ensure continued operation of critical systems.",
       "relevance": "Medium",
       "category": "IT services"
     },
@@ -230,7 +231,7 @@
       "due_date": "2026-07-21T11:00:00-05:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a47d80589f09440b925ab257bfc2c0c1",
       "sam_url": "https://sam.gov/workspace/contract/opp/a47d80589f09440b925ab257bfc2c0c1/view",
-      "summary": "The contract is for the Pyxis Allegro Interface, likely involving IT services for healthcare systems. The project requires expertise in integrating and supporting healthcare technology systems.",
+      "summary": "The contract is for the Pyxis Allegro Interface, likely involving integration or support services for healthcare technology. The project aims to enhance the Department of Veterans Affairs' systems.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -243,7 +244,7 @@
       "due_date": "2026-08-14T18:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=83bafc03347a4278b914d7d4d72bc826",
       "sam_url": "https://sam.gov/workspace/contract/opp/83bafc03347a4278b914d7d4d72bc826/view",
-      "summary": "The contract is for VBrick subscription maintenance, likely involving video content management and streaming services. This is a maintenance contract for existing VBrick systems.",
+      "summary": "The contract is for VBrick subscription maintenance, likely involving video content management and streaming services. This may include support and upkeep for the system.",
       "relevance": "Medium",
       "category": "IT services"
     },
@@ -256,7 +257,7 @@
       "due_date": "2026-07-30T14:00:00-05:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d4c0a1382512485a946d2ed5d48bd118",
       "sam_url": "https://sam.gov/workspace/contract/opp/d4c0a1382512485a946d2ed5d48bd118/view",
-      "summary": "The contract is for IT infrastructure upgrades, specifically thin client and network infrastructure, at Goodfellow AFB in Texas. The project aims to enhance the base's IT capabilities.",
+      "summary": "The contract is for IT infrastructure upgrade and implementation of thin client and network infrastructure at Goodfellow AFB in Texas. The project involves providing and installing necessary hardware and software.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -269,7 +270,7 @@
       "due_date": "2026-07-20T13:00:00-06:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=bc641b98b57e49ff8a3726acfc3e8c67",
       "sam_url": "https://sam.gov/workspace/contract/opp/bc641b98b57e49ff8a3726acfc3e8c67/view",
-      "summary": "The contract is for CCTV service and maintenance, likely for a Department of Veterans Affairs facility. The work involves installing, maintaining, and repairing closed-circuit television systems.",
+      "summary": "The contract is for CCTV service and maintenance for the Department of Veterans Affairs. The selected vendor will be responsible for ensuring the proper functioning of CCTV systems.",
       "relevance": "Medium",
       "category": "IT services"
     },
@@ -282,7 +283,7 @@
       "due_date": "2026-07-31T13:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7ca93285166f4d09bf29285ef9aaeac9",
       "sam_url": "https://sam.gov/workspace/contract/opp/7ca93285166f4d09bf29285ef9aaeac9/view",
-      "summary": "The contract is for annual support renewal, likely for IT systems or software. The Department of Health and Human Services is seeking a vendor to provide ongoing support.",
+      "summary": "The contract is for annual support renewal for the Department of Health and Human Services",
       "relevance": "High",
       "category": "IT services"
     },
@@ -295,7 +296,7 @@
       "due_date": "2026-07-24T17:00:00-06:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=9c577580e0154aec88a7b9bf1de76388",
       "sam_url": "https://sam.gov/workspace/contract/opp/9c577580e0154aec88a7b9bf1de76388/view",
-      "summary": "The contract is for providing telepresence services to Mexican criminal courts, enabling remote participation in court proceedings. This involves setting up and maintaining video conferencing systems.",
+      "summary": "The contract is for providing telepresence services to Mexican criminal courts, likely involving IT and video conferencing solutions. This will enable remote participation in court proceedings.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -308,8 +309,8 @@
       "due_date": "2026-08-17T13:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=923b56e9350a425d9ed3bb12ad58469a",
       "sam_url": "https://sam.gov/workspace/contract/opp/923b56e9350a425d9ed3bb12ad58469a/view",
-      "summary": "The contract is for support of Next Generation passport personalization printers, likely involving IT services and maintenance. The goal is to ensure the printers continue to function correctly and efficiently.",
-      "relevance": "Medium",
+      "summary": "The contract is for support of Next Generation passport personalization printers, likely involving IT and technical services. The goal is to ensure the printers operate efficiently and securely.",
+      "relevance": "High",
       "category": "IT services"
     },
     {
@@ -321,7 +322,7 @@
       "due_date": "2026-07-31T12:00:00-08:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8dbb533c369f4c17b913173d9a319cd3",
       "sam_url": "https://sam.gov/workspace/contract/opp/8dbb533c369f4c17b913173d9a319cd3/view",
-      "summary": "The contract is for commercial items with the Department of the Navy, and the due date is July 31, 2026. The project involves the NAICS code 541519, which is for Other Computer Related Services.",
+      "summary": "The contract is for commercial items with the Department of the Navy, specifically with SPAWAR PACIFIC, and is due by July 31, 2026. The NAICS code 541519 indicates it's for Other Computer Related Services.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -336,7 +337,7 @@
       "sam_url": "https://sam.gov/workspace/contract/opp/e593983d2415431497f46730970f7e00/view",
       "summary": "The contract is for a track and trace system, specifically the Videk DocuVision 8600. This system is used for document tracking and management.",
       "relevance": "Medium",
-      "category": "IT services"
+      "category": "Document Management"
     },
     {
       "id": "40764d7844654bde814b710c58922567",
@@ -347,7 +348,7 @@
       "due_date": "2026-07-20T11:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=40764d7844654bde814b710c58922567",
       "sam_url": "https://sam.gov/workspace/contract/opp/40764d7844654bde814b710c58922567/view",
-      "summary": "The contract is for the renewal of OpenFox services for the US Marshals Service. The services likely involve IT support and maintenance.",
+      "summary": "The contract is for the renewal of OpenFox services for the US Marshals Service. The services likely involve IT support and maintenance for law enforcement systems.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -360,7 +361,7 @@
       "due_date": "2026-10-14T23:59:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f25b8f1ffc6f4e3194379e44b6f73de1",
       "sam_url": "https://sam.gov/workspace/contract/opp/f25b8f1ffc6f4e3194379e44b6f73de1/view",
-      "summary": "The contract is for worldwide support services for the International Criminal Investigative Training Assistance Program (ICITAP) and the Overseas Prosecutorial Development, Assistance and Training (OPDAT) program. The services will likely include IT support and training.",
+      "summary": "The contract is for worldwide support services for the International Criminal Investigative Training Assistance Program (ICITAP) and the Overseas Prosecutorial Development, Assistance, and Training (OPDAT) program. The services will likely involve IT support and training.",
       "relevance": "Medium",
       "category": "IT services"
     },
@@ -373,7 +374,7 @@
       "due_date": "2026-08-06T14:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ac264b00b7664fc0ab7c5ab11658e7e5",
       "sam_url": "https://sam.gov/workspace/contract/opp/ac264b00b7664fc0ab7c5ab11658e7e5/view",
-      "summary": "The contract is for IT services to support FEMA's GPATS system, providing technical expertise and support. The goal is to enhance the system's functionality and efficiency.",
+      "summary": "The contract is for IT services to support FEMA's GPATS system, including cloud and AI/automation solutions. The goal is to enhance emergency preparedness and response capabilities.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -399,9 +400,9 @@
       "due_date": "2026-07-30T15:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ec015c7a66fb49e0bcf103b1ed5c4d23",
       "sam_url": "https://sam.gov/workspace/contract/opp/ec015c7a66fb49e0bcf103b1ed5c4d23/view",
-      "summary": "The contract is for technical assistance and data collection for a program supporting developmental disabilities education and research, including assistive technology. The program aims to improve services and support for individuals with disabilities.",
-      "relevance": "Medium",
-      "category": "IT services"
+      "summary": "The contract is for technical assistance and data collection for a program supporting developmental disabilities education and research. The program involves training and assistive technology.",
+      "relevance": "Low",
+      "category": "Health Services"
     }
   ]
 }

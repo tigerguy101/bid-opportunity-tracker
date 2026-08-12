@@ -1,19 +1,31 @@
 {
-  "last_updated": "2026-08-11T12:53:28.451439Z",
-  "total_found": 29,
-  "high_relevance": 16,
+  "last_updated": "2026-08-12T12:57:41.885677Z",
+  "total_found": 26,
+  "high_relevance": 13,
   "categories": [
     "AI Services",
     "Acquisitions",
+    "Administrative",
     "Cybersecurity",
+    "Data Analysis",
     "Defense Services",
-    "IT Hardware",
     "IT services",
-    "Program Support",
-    "Software",
-    "Training Services"
+    "Software"
   ],
   "bids": [
+    {
+      "id": "1267efeca5ae48ababd303c47ad8d565",
+      "title": "READINESS SIMULATION (RS) for Selective Service System",
+      "agency": "SELECTIVE SERVICE SYSTEM.SELECTIVE SERVICE SYSTEM.SELECTIVE SERVICE SYSTEM (SSS)",
+      "naics": "541512",
+      "posted_date": "2026-08-11",
+      "due_date": "2026-08-14T14:00:00-04:00",
+      "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=1267efeca5ae48ababd303c47ad8d565",
+      "sam_url": "https://sam.gov/workspace/contract/opp/1267efeca5ae48ababd303c47ad8d565/view",
+      "summary": "The contract is for a Readiness Simulation for the Selective Service System, likely involving IT and simulation services. The goal is to support the agency's readiness and preparedness.",
+      "relevance": "Medium",
+      "category": "IT services"
+    },
     {
       "id": "e5a6c6a51fd94ec6a5497440dce9306c",
       "title": "Central Plant Computer System (CPCS) Maintenance",
@@ -23,21 +35,8 @@
       "due_date": "2026-08-24T09:00:00-06:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e5a6c6a51fd94ec6a5497440dce9306c",
       "sam_url": "https://sam.gov/workspace/contract/opp/e5a6c6a51fd94ec6a5497440dce9306c/view",
-      "summary": "The contract is for maintenance of the Central Plant Computer System. The system controls and monitors the central plant operations.",
-      "relevance": "Medium",
-      "category": "IT services"
-    },
-    {
-      "id": "5d176bcebe4d40f39913149b8d04ce64",
-      "title": "READINESS SIMULATION (RS) for Selective Service System",
-      "agency": "SELECTIVE SERVICE SYSTEM.SELECTIVE SERVICE SYSTEM.SELECTIVE SERVICE SYSTEM (SSS)",
-      "naics": "541512",
-      "posted_date": "2026-08-10",
-      "due_date": "2026-08-14T14:00:00-04:00",
-      "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=5d176bcebe4d40f39913149b8d04ce64",
-      "sam_url": "https://sam.gov/workspace/contract/opp/5d176bcebe4d40f39913149b8d04ce64/view",
-      "summary": "The contract is for a Readiness Simulation for the Selective Service System, likely involving IT and simulation services. The goal is to assess and improve the system's readiness.",
-      "relevance": "Medium",
+      "summary": "The contract is for maintenance of the Central Plant Computer System. The system controls and monitors the central plant's operations.",
+      "relevance": "High",
       "category": "IT services"
     },
     {
@@ -67,19 +66,6 @@
       "category": "IT services"
     },
     {
-      "id": "338189f9aa7246d69048a351c27e776f",
-      "title": "DCSA INNOVATION GATEWAY",
-      "agency": "DEPT OF DEFENSE.DEFENSE COUNTERINTELLIGENCE AND SECURITY AGENCY (DCSA).DEFENSE CI AND SECURITY AGENCY",
-      "naics": "541512",
-      "posted_date": "2026-07-28",
-      "due_date": "2031-06-22T23:59:00-04:00",
-      "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=338189f9aa7246d69048a351c27e776f",
-      "sam_url": "https://sam.gov/workspace/contract/opp/338189f9aa7246d69048a351c27e776f/view",
-      "summary": "The contract is for the DCSA Innovation Gateway, which may involve IT and AI solutions for the Defense Counterintelligence and Security Agency. The project aims to drive innovation and security within the agency.",
-      "relevance": "High",
-      "category": "IT services"
-    },
-    {
       "id": "b1df3e201ddc4832aa54f0ce0e9113b5",
       "title": "Seymour Johnson AFB Klaxon System Upgrade and Maintenance",
       "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR COMBAT COMMAND.FA4809  4TH CONS SQ CC",
@@ -88,7 +74,7 @@
       "due_date": "2026-08-14T09:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=b1df3e201ddc4832aa54f0ce0e9113b5",
       "sam_url": "https://sam.gov/workspace/contract/opp/b1df3e201ddc4832aa54f0ce0e9113b5/view",
-      "summary": "The contract is for upgrading and maintaining the Klaxon system at Seymour Johnson AFB. This involves IT services for a critical alert system.",
+      "summary": "The contract is for upgrading and maintaining the Klaxon system at Seymour Johnson AFB. The work involves IT services for a critical alert system.",
       "relevance": "Medium",
       "category": "IT services"
     },
@@ -114,7 +100,7 @@
       "due_date": "2026-08-17T11:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=a97aa4c359ee4aa2ae9a39b6bafed4fe",
       "sam_url": "https://sam.gov/workspace/contract/opp/a97aa4c359ee4aa2ae9a39b6bafed4fe/view",
-      "summary": "The contract is for IT services, specifically for the Department of Justice US Marshals Service. The project involves providing IT toolkit solutions.",
+      "summary": "The contract is for IT services, specifically a toolkit for the US Marshals Service. The project involves providing IT support and potentially cloud or AI solutions.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -127,7 +113,7 @@
       "due_date": "2026-08-11T15:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7a2d1805037b4c739d3571956acedb89",
       "sam_url": "https://sam.gov/workspace/contract/opp/7a2d1805037b4c739d3571956acedb89/view",
-      "summary": "The FDIC is seeking consultation services for hardware and professional services in Palo Alto. This contract involves providing expert advice and support for the FDIC's IT infrastructure.",
+      "summary": "The FDIC is seeking consultation services for hardware and professional services in Palo Alto. The contract involves providing expert advice and support for the agency's IT infrastructure.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -140,8 +126,8 @@
       "due_date": "2026-08-17T11:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=6fc78191074b428d9ce0a8da40d260d6",
       "sam_url": "https://sam.gov/workspace/contract/opp/6fc78191074b428d9ce0a8da40d260d6/view",
-      "summary": "The Department of Justice is seeking a contractor to provide Comcast Cable MPLS services for 2 locations from FY27-31. The contract involves providing network infrastructure support.",
-      "relevance": "High",
+      "summary": "The contract is for providing MPLS cable services to 2 locations for the US Marshals Service. The services will be provided by Comcast Cable.",
+      "relevance": "Medium",
       "category": "IT services"
     },
     {
@@ -153,7 +139,7 @@
       "due_date": "2026-08-17T13:00:00-06:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=62f4d3f896c04fef8f807148b8a9e813",
       "sam_url": "https://sam.gov/workspace/contract/opp/62f4d3f896c04fef8f807148b8a9e813/view",
-      "summary": "The contract is for CCTV service and maintenance, likely for a Department of Veterans Affairs facility. The work involves installing, maintaining, and repairing closed-circuit television systems.",
+      "summary": "The contract is for CCTV service and maintenance, likely for a Department of Veterans Affairs facility. The work involves installing, maintaining, and repairing CCTV systems.",
       "relevance": "Medium",
       "category": "IT services"
     },
@@ -166,21 +152,8 @@
       "due_date": "2026-08-11T17:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c8a5075fc7ca43f494ec79adf0eabf93",
       "sam_url": "https://sam.gov/workspace/contract/opp/c8a5075fc7ca43f494ec79adf0eabf93/view",
-      "summary": "The Social Security Administration is requesting a quotation for an unspecified service related to the Rene project. The NAICS code 541519 suggests it may be related to IT services.",
+      "summary": "The Social Security Administration is seeking a quotation for an unspecified service related to the Rene request. The NAICS code 541519 suggests it may be related to IT services.",
       "relevance": "Medium",
-      "category": "IT services"
-    },
-    {
-      "id": "67dfcd20af9b4dfcb69fffeed96342e6",
-      "title": "NetScout Maintenance and Support Services Renewal",
-      "agency": "SENATE, THE.THE UNITED STATES SENATE SERGEANT AT ARMS.SENATE SERGEANT AT ARMS",
-      "naics": "541519",
-      "posted_date": "2026-08-07",
-      "due_date": "2026-08-10T15:00:00-04:00",
-      "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=67dfcd20af9b4dfcb69fffeed96342e6",
-      "sam_url": "https://sam.gov/workspace/contract/opp/67dfcd20af9b4dfcb69fffeed96342e6/view",
-      "summary": "The contract is for maintenance and support services for NetScout, a network monitoring and management system. The services are required by the United States Senate Sergeant at Arms.",
-      "relevance": "High",
       "category": "IT services"
     },
     {
@@ -192,7 +165,7 @@
       "due_date": "2026-08-14T13:00:00-05:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=e831c320deef4eb1932986b1d1b500ef",
       "sam_url": "https://sam.gov/workspace/contract/opp/e831c320deef4eb1932986b1d1b500ef/view",
-      "summary": "The contract is for sustaining Commvault server hardware, likely involving maintenance and support services. This opportunity is related to data management and IT infrastructure.",
+      "summary": "The contract is for sustaining Commvault server hardware, likely involving maintenance and support services. This opportunity involves providing hardware sustainment for the Air Force's data management systems.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -231,7 +204,7 @@
       "due_date": "2026-08-12T17:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=aaf7923654ec4410bcebc5d06dbd5464",
       "sam_url": "https://sam.gov/workspace/contract/opp/aaf7923654ec4410bcebc5d06dbd5464/view",
-      "summary": "The Department of Transportation is seeking information for strategic sourcing of various supplies and equipment. This contract is for acquiring goods and services for the Federal Aviation Administration.",
+      "summary": "The Department of Transportation's Federal Aviation Administration is seeking information for strategic sourcing of various supplies and equipment. This contract is for acquiring goods and services to support FAA operations.",
       "relevance": "Low",
       "category": "Acquisitions"
     },
@@ -244,7 +217,7 @@
       "due_date": "2026-08-11T11:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=970c66c88c2d4523bb6688c1d14aabd3",
       "sam_url": "https://sam.gov/workspace/contract/opp/970c66c88c2d4523bb6688c1d14aabd3/view",
-      "summary": "The contract is for the renewal of an Articulate360 software subscription. The subscription is likely used for e-learning and training purposes.",
+      "summary": "The contract is for the renewal of an Articulate360 software subscription. This subscription is likely used for e-learning and training purposes.",
       "relevance": "Medium",
       "category": "Software"
     },
@@ -270,7 +243,7 @@
       "due_date": "2026-08-04T16:00:00-05:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=7677ea9b4d98400db2d920d6e930d9d9",
       "sam_url": "https://sam.gov/workspace/contract/opp/7677ea9b4d98400db2d920d6e930d9d9/view",
-      "summary": "The Department of Energy is seeking a renewal of Commvault software, likely for data backup and management purposes. This contract is for fiscal year 2026.",
+      "summary": "The contract is for the renewal of Commvault software, likely for data management and backup purposes. This is for the Department of Energy's Southwestern Power Administration.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -283,35 +256,35 @@
       "due_date": "2026-08-20T17:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=04d8b5740fd0464bb2fca0654d9fe20e",
       "sam_url": "https://sam.gov/workspace/contract/opp/04d8b5740fd0464bb2fca0654d9fe20e/view",
-      "summary": "The Social Security Administration is seeking information on hardware for network needs. This contract is for the procurement of network hardware.",
+      "summary": "The Social Security Administration is seeking information on hardware for network infrastructure. This contract is for the procurement of network hardware.",
+      "relevance": "High",
+      "category": "IT services"
+    },
+    {
+      "id": "f43da6cbf82941cd98c31f0267a934b6",
+      "title": "Security Assistance Mentors and Cultural Advisors (SAMA) SAMA 3.0 for USMILGP-Iraq",
+      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC RI.W6QK ACC-RI",
+      "naics": "541611",
+      "posted_date": "2026-08-11",
+      "due_date": "2026-08-18T14:00:00-05:00",
+      "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=f43da6cbf82941cd98c31f0267a934b6",
+      "sam_url": "https://sam.gov/workspace/contract/opp/f43da6cbf82941cd98c31f0267a934b6/view",
+      "summary": "The contract is for security assistance mentors and cultural advisors for the US Military in Iraq. The goal is to provide training and support to Iraqi forces.",
+      "relevance": "Low",
+      "category": "Defense Services"
+    },
+    {
+      "id": "8f35ec3ebffe4814a9b0a82fc5c2b680",
+      "title": "2024 & 2025 Estimates of WIC Eligibility and Program Reach",
+      "agency": "AGRICULTURE, DEPARTMENT OF.FOOD AND NUTRITION SERVICE.USDA FOOD AND NUTRITION ADMINISTRATION",
+      "naics": "541611",
+      "posted_date": "2026-08-11",
+      "due_date": "2026-08-28T12:00:00-04:00",
+      "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=8f35ec3ebffe4814a9b0a82fc5c2b680",
+      "sam_url": "https://sam.gov/workspace/contract/opp/8f35ec3ebffe4814a9b0a82fc5c2b680/view",
+      "summary": "This contract is for estimating eligibility and program reach for the Women, Infants, and Children (WIC) program. The work involves data analysis and statistical modeling.",
       "relevance": "Medium",
-      "category": "IT Hardware"
-    },
-    {
-      "id": "d79de7cee3c4455b8c0b9d80ef2e8282",
-      "title": "GV3.0/GVX Desktop Software Support",
-      "agency": "DEPT OF DEFENSE.DEFENSE INFORMATION SYSTEMS AGENCY (DISA).IT CONTRACTING DIVISION - PL83",
-      "naics": "541519",
-      "posted_date": "2026-07-28",
-      "due_date": "2026-08-03T10:00:00-05:00",
-      "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=d79de7cee3c4455b8c0b9d80ef2e8282",
-      "sam_url": "https://sam.gov/workspace/contract/opp/d79de7cee3c4455b8c0b9d80ef2e8282/view",
-      "summary": "The contract is for support of GV3.0/GVX desktop software. The selected vendor will provide maintenance and support services for the software.",
-      "relevance": "High",
-      "category": "IT services"
-    },
-    {
-      "id": "76521861b5544a06945621671af0c568",
-      "title": "17 CS SIPR Thin Client & Network Infrastructure Project, Goodfellow AFB, TX",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE AIR FORCE.AIR EDUCATION AND TRAINING COMMAND.FA3030  17 CONS CC",
-      "naics": "541519",
-      "posted_date": "2026-07-28",
-      "due_date": "2026-08-03T12:00:00-05:00",
-      "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=76521861b5544a06945621671af0c568",
-      "sam_url": "https://sam.gov/workspace/contract/opp/76521861b5544a06945621671af0c568/view",
-      "summary": "The contract is for IT infrastructure project at Goodfellow AFB, TX, involving thin client and network infrastructure. The project aims to upgrade and support the base's IT systems.",
-      "relevance": "High",
-      "category": "IT services"
+      "category": "Data Analysis"
     },
     {
       "id": "c826817eb4aa4d46a0bf77a96e92be4a",
@@ -322,7 +295,7 @@
       "due_date": "2026-08-21T15:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c826817eb4aa4d46a0bf77a96e92be4a",
       "sam_url": "https://sam.gov/workspace/contract/opp/c826817eb4aa4d46a0bf77a96e92be4a/view",
-      "summary": "The contract is for providing communications support to a hospital, likely involving IT services and infrastructure. The goal is to ensure efficient communication systems within the hospital.",
+      "summary": "The contract is for hospital communications support, likely involving IT services for healthcare facilities. The goal is to provide effective communication systems within hospitals.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -335,9 +308,9 @@
       "due_date": "2026-08-28T13:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=2741d2c6904546a19b6e18d3569900ac",
       "sam_url": "https://sam.gov/workspace/contract/opp/2741d2c6904546a19b6e18d3569900ac/view",
-      "summary": "This contract is for training and technical assistance services for state councils on developmental disabilities. The goal is to support the development and implementation of programs for individuals with developmental disabilities.",
-      "relevance": "Low",
-      "category": "Training Services"
+      "summary": "The contract is for training and technical assistance to support state councils on developmental disabilities, likely involving IT support and consulting services. The goal is to enhance the capabilities of these councils.",
+      "relevance": "Medium",
+      "category": "IT services"
     },
     {
       "id": "c926de4801f445fd909b11f94830ffba",
@@ -348,7 +321,7 @@
       "due_date": "2026-08-25T11:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=c926de4801f445fd909b11f94830ffba",
       "sam_url": "https://sam.gov/workspace/contract/opp/c926de4801f445fd909b11f94830ffba/view",
-      "summary": "The contract is for support services for a persistent cyber training environment, likely involving IT and cybersecurity solutions. The goal is to provide a continuous training environment for cyber operations.",
+      "summary": "The contract is for support services for a persistent cyber training environment, likely involving IT and cybersecurity solutions. The goal is to provide a realistic and immersive training experience for cyber personnel.",
       "relevance": "High",
       "category": "Cybersecurity"
     },
@@ -361,7 +334,7 @@
       "due_date": "2026-08-13T14:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=547e616498e04e8e9ed23c2db70b7f65",
       "sam_url": "https://sam.gov/workspace/contract/opp/547e616498e04e8e9ed23c2db70b7f65/view",
-      "summary": "The contract is for IT services to support FEMA's GPATS system, including cloud and AI/automation solutions. The goal is to provide effective and efficient IT support for emergency management operations.",
+      "summary": "The contract is for IT services to support FEMA's GPATS system, providing technical expertise and support. The goal is to enhance the system's functionality and efficiency.",
       "relevance": "High",
       "category": "IT services"
     },
@@ -374,22 +347,9 @@
       "due_date": "2026-08-30T11:00:00-04:00",
       "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=51ffc1d23cc34eddab42e46ecbbe8484",
       "sam_url": "https://sam.gov/workspace/contract/opp/51ffc1d23cc34eddab42e46ecbbe8484/view",
-      "summary": "The contract is for program support of the Joint Staff Assessment Visit and Nuclear Procedures Inspection program. This includes providing administrative and technical services to support the program's operations.",
-      "relevance": "Medium",
-      "category": "Program Support"
-    },
-    {
-      "id": "235660f1e29c45ff8826ebb6ce8a43de",
-      "title": "Security Assistance Mentors and Cultural Advisors (SAMA) SAMA 3.0 for USMILGP-Iraq",
-      "agency": "DEPT OF DEFENSE.DEPT OF THE ARMY.AMC.ACC.ACC-CTRS.ACC RI.W6QK ACC-RI",
-      "naics": "541611",
-      "posted_date": "2026-07-29",
-      "due_date": "2026-08-13T13:00:00-05:00",
-      "description_url": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=235660f1e29c45ff8826ebb6ce8a43de",
-      "sam_url": "https://sam.gov/workspace/contract/opp/235660f1e29c45ff8826ebb6ce8a43de/view",
-      "summary": "The contract is for providing security assistance mentors and cultural advisors to support the US Military in Iraq. The goal is to enhance the capabilities of Iraqi security forces.",
+      "summary": "The contract is for program support of the Joint Staff Assessment Visit and Nuclear Procedures Inspection program. The support will involve administrative and logistical tasks.",
       "relevance": "Low",
-      "category": "Defense Services"
+      "category": "Administrative"
     }
   ]
 }
